@@ -1,7 +1,7 @@
 import { Base, Cfg } from '#MysTool/utils'
 import { MysInfo } from '#MysTool/mys'
 import { Player } from '#MysTool/profile'
-import { common } from '#Karin'
+import { common } from 'node-Karin'
 import _ from 'lodash'
 
 export default class Role extends Base {

@@ -1,4 +1,4 @@
-import { plugin } from '#Karin'
+import { plugin } from 'node-Karin'
 import Calculator from '../model/calculator.js'
 
 export class gs_calculator extends plugin {
