@@ -228,6 +228,8 @@ export default class Role extends Base {
     } catch (err) { }
 
     Data.delFile(save, { root: true })
+
+    return true
   }
 
   async getAllLog (authkey, ids = '', page = 1, endId = 0) {
